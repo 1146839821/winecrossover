@@ -73,6 +73,8 @@ static inline char *strdupWtoA( const WCHAR *str )
 
 static const char magic_loopback_addr[] = {127, 12, 34, 56};
 
+static const char zero_addr[] = {0, 0, 0, 0};
+
 const char *debugstr_sockaddr( const struct sockaddr *addr );
 
 struct per_thread_data
